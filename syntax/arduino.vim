@@ -11,8 +11,7 @@
 " Using keywords from <arduino>/lib/keywords.txt
 " From version:
 
-" Thanks to original author Johannes Hoff and Rik, Erik Nomitch, Adam Obeng
-and Graeme Cross for helpful feedback!
+" Thanks to original author Johannes Hoff and Rik, Erik Nomitch, Adam Obeng and Graeme Cross for helpful feedback!
 
 " For version 5.x: Clear all syntax items
 " For version 6.x: Quit when a syntax file was already loaded
