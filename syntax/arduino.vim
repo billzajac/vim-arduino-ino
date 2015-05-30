@@ -16,16 +16,16 @@
 " For version 5.x: Clear all syntax items
 " For version 6.x: Quit when a syntax file was already loaded
 if version < 600
-    syntax clear
+  syntax clear
 elseif exists("b:current_syntax")
-    finish
+  finish
 endif
 
 " Read the C syntax to start with
 if version < 600
-    so <sfile>:p:h/cpp.vim
+  so <sfile>:p:h/cpp.vim
 else
-    runtime! syntax/cpp.vim
+  runtime! syntax/cpp.vim
 endif
 
 syn keyword arduinoConstant BIN CHANGE DEC DEFAULT EXTERNAL FALLING HALF_PI HEX
